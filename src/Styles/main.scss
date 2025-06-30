@@ -4,7 +4,6 @@ $accent: #688B2A;
 $text: #000000;
 
 
-
 body {
   background: $app-bg;
   font-family: "Montserrat", sans-serif;
@@ -29,8 +28,6 @@ body {
   }
   
 }
-
-
 
 .task-form {
   display: flex;
@@ -57,14 +54,11 @@ body {
     cursor: pointer;
 
     &:hover {
-      background-color: white; // darker purple
+      background-color: white; 
       color: black;
       border: 0.05rem solid black;
     }
   }
-
-  
-
 }
 
 .filters {
@@ -79,12 +73,10 @@ body {
     background: none;
     cursor: pointer;
     
-
     &.active {
       background: $accent;
       color: white;
     }
-    
   }
 }
 
@@ -99,7 +91,6 @@ body {
   justify-content: space-between;
   padding: 0.6rem;
   border-bottom: 1px solid #eee;
-
 
     .action-buttons {
     display: flex;
@@ -117,22 +108,13 @@ body {
     cursor: pointer;
     border-radius: 22px; // Rounded corners
 
-    
-     
-
     &:hover {
       background-color: white; // darker purple
       color: black;
       border: 0.05rem solid black;
     }
   }
-
-
 }
-
-
-
-
 
 .pagination {
   display: flex;
